@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="danish"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-08-29 07:39:54 PM"/>
+        <attribute name="created" value="ZGFuaXNoO0RFU0tUT1AtVDNCVjJNSzsyMDIzLTA4LTI5OzA1OjAyOjI2IFBNOzI5ODg="/>
+        <attribute name="edited" value="ZGFuaXNoO0RFU0tUT1AtVDNCVjJNSzsyMDIzLTA4LTI5OzA3OjM5OjU0IFBNOzI7MzExMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X, Y, SUM, Average" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <assign variable="sum" expression="x+y"/>
+            <assign variable="average" expression="sum/2"/>
+            <output expression="Average" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
